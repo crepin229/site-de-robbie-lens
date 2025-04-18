@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.classe{
+display: flex;
+flex-direction: row;
+}
+
+.ma-classe {
+color: #242424;
+font-size: 1.05em;
+font-family: "Manrope", serif;
+text-decoration: none;
+margin-left: 30px; 
+} 
+
+
+h1 {
+color: #A5B4FC ;
+font-size: 3.5em;
+font-family: "Montserrat", sans-serif;
+}
+
+.propos{
+text-align: center;
+margin-top: 20px;
+}
+
+p {
+font-size: 1.1em;
+font-family: "Manrope", serif;
+}
+
+em{
+color: #A5B4FC;
+}
+
+ul {
+font-size: 1em;
+font-family: "Manrope", serif;
+}
+.ma-classe:hover{
+text-decoration-line: underline;
+}
+
+.en-haut{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.en-bas{
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 50px;
+padding-left: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+body {
+     background-color: #1F2039;
+}
+
+
+.un-projet{
+  color: white;
+    background-color: #8e86b5;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+    
+.mon-portfolios{
+  color: white;
+  background-color: #8e86b5;
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  padding: 15px 25px;
+}
+.voir-mon-portfolio{
+  margin-top: 50px;
+text-align: center;
+}
+h2 {
+    color: #f9f8ff;
+    margin-top: 30px;
+}
+
+  p, li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+.photo-de-robie img{
+  width: 100%;
+}
+
+.demo-border p{
+margin-bottom: 20px;
+}
+ul{
+margin-bottom: 20px;}
+a:hover{
+opacity: 1;
+}
+
+.un-projet:hover{
+background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.portfolios:hover{
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+
+section{
+padding: 80px;
+}
+
+ul{
+margin-top: 30px;
+}
+
+.a-propos-mains{
+   margin:auto;
+   width: 900px;
+}
+
+.demo-border p{
+margin-right: 30px;
+}
+.liste{
+margin-left: 90px;
+margin-bottom: 50px;
+}
+.service{
+text-align: center;
+}
+
+.demo-border{
+border-right: 1px solid #696484;
+border-bottom: 1px solid #696484;}
+
+.cta{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: auto;
+gap: 25px;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+ 
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.conteneur1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+.conteneur2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
+.conteneur1 img, .conteneur2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+td,th{
+  font-family: sans-serif;
+border: 1px solid white;
+width: 500px;
+}
+table{
+  color: white;
+border-collapse: collapse;
+margin: auto;
+margin-bottom: 10%;
+
+}
+td{
+padding: 50px;
+}
+
+Caption{
+margin-bottom: 30px;
+font-family:  serif;
+font-size: 30px;
+}
+
+.section-contact h2{
+  color: #A5B4FC;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+}
+
+.form-colomn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+color: white;
+padding-bottom: 30px;
+}
+
+.nom{
+width: 490px;
+height: 50px;
+border-radius: 5px;
+}
+
+.email{
+  width: 490px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.message{
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: white;
+}
+
+textarea{
+width: 1000px;
+height: 170px;
+border-radius: 5px;
+}
+.envoi{
+text-align: center;
+}
+.Envoyer{
+  display: inline-block;
+  color: white;
+  background: linear-gradient(#696484, #8788ba);
+  border-radius: 50px;
+  padding: 20px 60px;
+  border: none;
+  margin-top: 20px;
+}
+
+label{
+font-size: 17px;
+font-family: sans-serif;
+}
+.form-nem{
+margin-top: 5%;
+}
+@media screen and (max-width: 996px) {
+  .a-propos-mains{
+    width: 100%;
+ }
+  .en-haut{
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 10px; 
+padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;}
+h1, h2{
+font-size: 2em;}
+  .conteneur1, .conteneur2{
+display: grid;
+grid-template-columns: 1fr;
+}
+}
+@media screen and (max-width: 1200px) {
+  body{
+    display: block;
+  margin: 0px;
+}
+}
+  @media screen and (max-width: 410px) {
+    .en-haut nav{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+  }
+@media screen and (max-width: 1000px) {
+  table{
+  display: none;}
+  .mon-portfolios{
+    color: white;
+    background-color: #8e86b5;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  .liste{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    }
+  .cta{
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.photo-de-robie img{
+  width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 400px) {
+  .a-propos-mains{
+  font-size: 0.8em;}
+  h1, h2{
+  font-size: 1.5em;}
+  .section-contact h2{
+  font-size: 1.5em;}
+  
+}
+@media screen and (max-width: 331px) {
+  h1, h2{
+  font-size: 1.5em;}
+  .section-contact h2{
+    font-size: 0.9em;}
+    
+}
+@media screen and (max-width: 350px) {
+  .mon-portfolios{
+    padding: 5px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+  }
+  .cta p{
+  font-size: 10px;}
+}
+@media  screen and (max-width: 1050px) {
+  .accueil-photos div{
+  flex-direction: column;
+text-align: center;}
+.accueil-photos img{
+  width: 100%;
+}
+.form-colomn{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 20px;
+}
+textarea{
+width: 490;
+height: 90;
+}
+.Envoyer{
+padding: 15px 25px;
+}
+}
+@media screen and (max-width: 550px){
+.nom, .email{
+  width:  300px;
+  height: 30px;
+}
+textarea{
+  width:  300px;
+  height: 50px;
+}
+.Envoyer{
+padding: 10px 20px;}
+.section-contact h2{
+  font-size: 1em;}
+  label{
+  font-size: 0.8em;}
+  .port{
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+  .liste{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    }
+  .un-projet{
+  font-size: 0.8em;
+width:  100%;}
+}
+@media screen and (max-width:330px)
+{
+  .mon-portfolios{
+    padding: 7px 14px;
+    font-size: 0.6em;
+  }
+  .voir-mon-portfolio{
+  margin-top: 20px;}
+
+  .a-propos-mains{
+  font-size: 0.8em;}
+  .nom, .email{
+    width:  200px;
+  height: 25;}
+  textarea{
+  width:  200px;
+  height: 30px;
+  }
+  .Envoyer{
+  padding: 7px 20px;
+  font-size: 0.6em;
+  }
+  .un-projet{
+  padding: 7px 15px;
+  font-size: 0.6em;
+}
+}
+@media screen and (max-width:240px) {
+  .nom, .email{
+    width:  100px;
+  height: 25;}
+  textarea{
+  width:  100px;
+  height: 40px;
+  }
+}
+@media screen and (max-width:295px) {
+  .demo-border{
+  border: none;
+  }
+}
